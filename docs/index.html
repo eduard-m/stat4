@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./less/style/_base.css">
+</head>
+<body>
+    <header class="header">
+            <div class="row">
+                <div class="col left-col">
+                    <div class="logo">
+                        <a class="logo-link" href="index.html">
+                            <img src="./img/logo.svg" alt="Logo">
+                            <p>stat<span>4</span>market</p>
+                        </a>
+                    </div>
+
+                    <div class="header-num">
+                        <img src="./img/ozon.svg" alt="Ozon">
+                        <p><span class="header-num__name">Ozon </span>(№28451)</p>
+                    </div>
+                </div>
+
+                <div class="col right-col">
+                    <div class="header-balance">
+                        <img src="./img/icon_coin.svg" alt="Coin">
+                        <p>9 932.00 ₽ <span>(Хватит ~ 345 дней)</span></p>
+                        <a href="#">Пополнить</a>
+                    </div>
+
+                    <div class="menu">
+                        <a class="menu-notification" href="#">
+                            <img src="./img/bell.svg" alt="Notification">
+                            <span></span>
+                            <p>Оповещения</p>
+                        </a>
+                        <a class="menu-profile" href="#">
+                            <img src="./img/user.svg" alt="Profile">
+                            <p>Настройки</p>
+                        </a>
+                        
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">Александр</a>
+                            <div class="dropdown-content">
+                                <a href="#">Ссылка 1</a>
+                                <a href="#">Ссылка 2</a>
+                                <a href="#">Ссылка 3</a>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <main>
+        <div class="row">
+            <div class="col">
+                <div class="cabinet">
+                    <h1>Личный кабинет</h1>
+                    <div class="dropdown-cabinet">
+                        <a class="cabinet-link" href="#">
+                          Настройки
+                        </a>
+                        <ul class="dropdown-cabinet__list">
+                          <li class="cabinet-active"><a class="link-active" href="#">Оплата</a></li>
+                          <li><a href="#">Уведомления</a></li>
+                          <li><a href="#">Партнерская программа</a></li>
+                          <li><a href="#">Обучение</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="payment">
+                    <h2>Оплата</h2>
+                    <ul class="payment-list">
+                        <li><a href="#">Пополнение баланса</a></li>
+                        <li><a href="#">Детализация расходов</a></li>
+                        <li><a href="#" class="payment-list__active">Тарифы, доп. услуги</a></li>
+                        <li><a href="#">История платежей</a></li>
+                    </ul>
+                    <div class="row">
+                        <div class="col col-fix">
+                            <div class="wrap-one">
+                                <div class="wrap-one__cap">
+                                    <p>Wildberries — Аналитика</p>
+                                </div>
+
+                                <div class="wrap-one__content">
+                                    <p>Анализ заказов, продаж, остатков, товарная аналитика по каждому складу маркетплейса</p>
+                                    <table class="wrap-one__table">
+                                        <tr>
+                                            <th>Количество товаров</th>
+                                            <th>Месяц</th>
+                                            <th>День</th>
+                                        </tr>
+                                        <tr>
+                                            <td>до 50</td>
+                                            <td>2 730₽</td>
+                                            <td>79₽</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 51 до 100</td>
+                                            <td>2 970₽</td>
+                                            <td>99₽</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 101 до 500</td>
+                                            <td>4 470₽</td>
+                                            <td>149₽</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 501 до 1000</td>
+                                            <td>7 470₽</td>
+                                            <td>249₽</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 1001 до 5000</td>
+                                            <td>10 470₽</td>
+                                            <td>349₽</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Безлимитный от 5001</td>
+                                            <td>14 970₽</td>
+                                            <td>499₽</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="wrap-two">
+                                <div class="wrap-two__cap">
+                                    <p>Wildberries — Анализ категорий</p>
+                                </div>
+
+                                <div class="wrap-two__content">
+                                    <p>Анализ любых категорий, страниц брендов, поисковых запросов, акций. Безлимитный доступ к данным по всем товарам со страницы, заказам, остатках на складах, скорости заказов и другим метрикам.</p>
+
+                                    <p class="content-text-pink">Добавление страницы в отслеживание — 99₽/страница</p>
+
+                                    <p>Списывается за уникальную страницу, если вдруг удалили страницу и добавили заново — повторно оплата не снимается</p>
+                                    
+                                    <p class="content-text-black">Ежедневный мониторинг и обновление страниц:</p>
+                                    <table class="wrap-two__table">
+                                        <tr>
+                                            <th>Количество страниц</th>
+                                            <th>Месяц</th>
+                                            <th>День</th>
+                                        </tr>
+                                        <tr>
+                                            <td>до 3</td>
+                                            <td>0₽</td>
+                                            <td>0₽</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 4 до 10</td>
+                                            <td>0₽</td>
+                                            <td>0₽</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 11 до 20</td>
+                                            <td>0₽</td>
+                                            <td>0₽</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 21 до 50</td>
+                                            <td>0₽</td>
+                                            <td>0₽</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Безлимитный от 51</td>
+                                            <td>0₽</td>
+                                            <td>0₽</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="wrap-three">
+                                <div class="wrap-three__cap">
+                                    <p>Wildberries — Позиции товаров</p>
+                                </div>
+
+                                <div class="wrap-three__content">
+                                    <p>Анализ позиций любых товаров на страницах категорий, бренда, поисковых запросов, акций.</p>
+                                    <p class="content-text-pink">Добавление нового товара — 29₽/товар</p>
+                                    <p>Списывается за уникальный товар, если вдруг удалили товар и добавили заново - повторно оплата не списывается.</p>
+                                    <p class="content-text-black">Ежедневный мониторинг позиций:</p>
+
+                                    <table class="wrap-three__table">
+                                        <tr>
+                                            <th>Количество товаров</th>
+                                            <th>Месяц</th>
+                                            <th>День</th>
+                                        </tr>
+                                        <tr>
+                                            <td>до 20</td>
+                                            <td>870₽</td>
+                                            <td>29₽</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 21 до 100</td>
+                                            <td>1 470₽</td>
+                                            <td>49₽</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 101 до 500</td>
+                                            <td>2 970₽</td>
+                                            <td>99₽</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 501 до 1000</td>
+                                            <td>4 470₽</td>
+                                            <td>149₽</td>
+                                        </tr>
+                                        <tr>
+                                            <td>от 1001 до 5000</td>
+                                            <td>7 470₽</td>
+                                            <td>249₽</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Безлимитный от 5001</td>
+                                            <td>8 970₽</td>
+                                            <td>299₽</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="services">
+                    <h2>Дополнительные услуги:</h2>
+                    <p class="services-text">Помощь от команды Stat4market, основателя сервиса и партнеров, для увеличения продаж и помощи по работе с маркетплейсом.</p>
+
+                    <div class="services-wrapper">
+                        <div class="services-wrapper__img">
+                            <img src="./img/services-2.jpg" alt="Services">
+                        </div>
+
+                        <div class="services-wrapper__content">
+                            <div class="services-wrapper__content-text">
+                                <h3>Оптимизация продаж на маркетплейсе</h3>
+                                <p>Наш основной продукт для тех, кто уже продаёт на Wildberries, направленный напрямую на увеличение вашей прибыли от работы с маркетплейсом. В нашем сервисе уже несколько сотен поставщиков и мы понимаем основные ошибки поставщиков, которые тормозят их рост и рычаги увеличения ваших продаж на маркетплейсах. Наша команда и основатель сервиса Дмитрий Бакланов проанализирует ваш бренд, найдут точки роста, оптимизации товаров.</p>
+
+                                <p class="content-text-bot">Для начала работы необходимо заполнить заявку по ссылке «Заказать».</p>
+
+                                <div class="content-text__note">
+                                    <img src="./img/galochka.svg" alt="">
+                                    <p>Вы получите полное понимание своих дальнейших действий для развития бренда, также чек-лист из более 30 пунктов по улучшениям или проблемам именно вашего бренда для оптимизации, увеличения выручки и прибыли</p>
+                                </div>
+                            </div>
+
+                            <div class="services-price">
+                                <div class="price-text">
+                                    <div class="price-before">
+                                        29 900₽
+                                    </div>
+                                    <div class="price-now">
+                                        24 900₽
+                                    </div>
+                                    <div class="price-time">
+                                        2 часа
+                                    </div>
+                                </div>
+                                <div class="price-buttons">
+                                    <a href="#" class="btn-order">Заказать</a>
+                                    <a href="#" class="btn-more">Подробнее об услуге</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="services-wrapper">
+                        <div class="services-wrapper__img">
+                            <img src="./img/services-1.jpg" alt="Services">
+                        </div>
+
+                        <div class="services-wrapper__content">
+                            <div class="services-wrapper__content-text">
+                                <h3>Конкурентный анализ</h3>
+                                <p class="content-text__mb">Наш сервис анализирует уже более миллиона товаров на Wildberries, если вы хотите получить комплексный анализ товаров конкурентов или категорий, в которые планируете выйти, то этот продукт для Вас. Наши специалисты соберут и соединят для вас в удобном формате всю необходимую информацию по продажам нужных Вам категорий, брендов, товаров. Подскажут слабые места, просадки в поставках и точки роста в тех категориях, в которые вы планируете выйти.</p>
+
+                                <div class="content-text__note">
+                                    <img src="/img/galochka.svg" alt="">
+                                    <p>Вы получите ответы на все вопросы, которые мешают выйти и поставить ваши товары на Wildberries.</p>
+                                </div>
+                            </div>
+
+                            <div class="services-price">
+                                <div class="price-text">
+                                    <div class="price-before">
+                                        9 900₽
+                                    </div>
+                                    <div class="price-now">
+                                        4 900₽
+                                    </div>
+                                    <div class="price-time">
+                                        2 часа
+                                    </div>
+                                </div>
+                                <div class="price-buttons">
+                                    <a href="#" class="btn-order">Заказать</a>
+                                    <a href="#" class="btn-more">Подробнее об услуге</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
